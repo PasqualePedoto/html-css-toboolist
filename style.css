@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: Arial (sans-serif);
 }
 
 .center{
@@ -13,6 +14,9 @@
     background-color: white;
     width: 60%;
     height: auto;
+    margin-top: 80px;
+    padding-left: 30px;
+    padding-top: 0;
 }
 
 body{
@@ -41,4 +45,32 @@ header{
 
 #title{
     vertical-align: middle;
+}
+
+/*Main*/
+
+button{
+    border-radius: 15px;
+    width: 70px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+#add-task{
+    background-color: #47ADF1;
+    border: 1px #47ADF1 solid;
+}
+
+#add-section{
+    background-color: white;
+    border: 1px #C6CCD1 solid;
+}
+
+.white-text{
+    color: white;
+}
+
+.font-inside{
+    font-size: 10px;
 }
