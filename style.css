@@ -1,4 +1,5 @@
 /*Generics*/
+
 *{
     margin: 0;
     padding: 0;
@@ -12,19 +13,34 @@
 
 .container{
     background-color: white;
-    width: 60%;
+    width: 50%;
     height: auto;
     margin-top: 80px;
     padding-left: 30px;
-    padding-top: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+li{
+    margin-top: 20px;
 }
 
 body{
-    background-color: rgb(104, 102, 102);
+    background-color: rgb(30,200, 50);
+}
+
+.inline{
+    display: inline;
 }
 
 #title{
-    display: inline;
+    vertical-align: middle;
 }
 
 /*Intestazione*/
@@ -49,12 +65,17 @@ header{
 
 /*Main*/
 
-button{
+section{
+    margin-bottom: 30px;
+}
+
+.block{
     border-radius: 15px;
     width: 70px;
     height: 35px;
     padding: 5px;
     margin-top: 40px;
+    text-decoration: none;
 }
 
 #add-task{
@@ -65,12 +86,56 @@ button{
 #add-section{
     background-color: white;
     border: 1px #C6CCD1 solid;
+    color: grey;
 }
 
 .white-text{
     color: white;
+    font-size: 10px;
 }
 
 .font-inside{
     font-size: 10px;
+}
+
+/*Edit entity*/
+
+.okay{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    border: 1px green solid;
+    color: green;
+}
+
+.not-today{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    border: 1px red solid;
+    color: red;
+}
+
+#editorial{
+    background-color: #47ADF1;
+}
+
+#q1-goals{
+    background-color: #9C72E4;
+}
+
+#recruiting{
+    background-color: #64C0A9;
+}
+
+#mobile{
+    background-color: #F29E33;
+}
+
+#sales{
+    background-color: #B0C926;
+}
+
+#website{
+    background-color: #D863A1;
 }
