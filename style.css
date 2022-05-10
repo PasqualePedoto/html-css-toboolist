@@ -78,6 +78,8 @@ section{
     text-decoration: none;
 }
 
+/*button*/
+
 #add-task{
     background-color: #47ADF1;
     border: 1px #47ADF1 solid;
@@ -88,6 +90,8 @@ section{
     border: 1px #C6CCD1 solid;
     color: grey;
 }
+
+/*text*/
 
 .white-text{
     color: white;
@@ -115,6 +119,8 @@ section{
     border: 1px red solid;
     color: red;
 }
+
+/*label*/
 
 #editorial{
     background-color: #47ADF1;
