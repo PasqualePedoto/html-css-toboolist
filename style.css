@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+.center{
+    margin: 0 auto;
+}
+
+.container{
+    background-color: white;
+    width: 60%;
+    height: auto;
+}
+
 body{
     background-color: rgb(104, 102, 102);
 }
